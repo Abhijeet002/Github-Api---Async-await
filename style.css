@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: "Ubuntu", sans-serif; */
+    font-family: "Comfortaa", sans-serif;
+    color: #ece8e0;
+}
+.container{
+    
+    margin: 0px;
+    background: #0d3b53 ;
+    padding: 60px 0px;
+    color: #ece8e0;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.top>h1{
+    /* color: #bf6b17; */
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images{
+    width: 40%;
+}
+
+.cards{
+    height: 8rem;
+    display: flex;
+    margin: 20px;
+    background: #063852;
+    border-radius: 20px;
+    box-shadow:  10px 10px 10px 1000px #0a344a  inset;
+    backdrop-filter: blur(14px); 
+    overflow: hidden;
+    width: 20rem;
+    transition: all 0.3s ease;
+    
+}
+
+.cards>h2{
+    margin: auto 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    color: #bf6b17;
+    transition: all 0.3s ease;
+}
+
+.cards>h2:hover{
+    font-size: 2rem;
+}
+
+.cards:hover{
+    cursor: pointer;
+    box-shadow:2px 2px 30px 12px #032e46;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+@media(max-width:560px){
+    .top>h1{
+        font-size: 2rem;
+    }
+   
+}
